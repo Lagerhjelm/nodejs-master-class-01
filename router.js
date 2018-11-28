@@ -8,7 +8,7 @@ handlers.notFound = function(data, callback) {
 }
 
 handlers.hello = function(data, callback) {
-	callback(200, { "message" : "Hello World!" } );
+	callback(200, { "message" : "Welcome to the first assignment!" } );
 }
 
 var paths = {
